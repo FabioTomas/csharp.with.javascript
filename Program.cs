@@ -1,4 +1,5 @@
 ﻿using csharp_with_javascript.Service;
+using System;
 
 namespace csharp.with.javascript
 {
@@ -10,9 +11,13 @@ namespace csharp.with.javascript
         }
         static void Main(string[] args)
         {
-            //var engine = new ScriptEngine();
+            string propertyPath = "R.admin.disciplinasMinistradas";
 
-            new ExpressionService();
+            var value = ExpressionService.GetProperty(propertyPath);
+
+            Console.WriteLine(value);
+
+            Console.ReadKey();
 
         }
     }

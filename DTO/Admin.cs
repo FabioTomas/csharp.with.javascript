@@ -7,8 +7,8 @@ namespace csharp.with.javascript.DTO
         [JsonProperty("tituloDisciplinas")]
         public string TituloDisciplinas { get; set; }
 
-        [JsonProperty("tituloMinhasDisciplinas")]
-        public string TituloMinhasDisciplinas { get; set; }
+        [JsonProperty("disciplinasMinistradas")]
+        public string DisciplinasMinistradas { get; set; }
     }
 
 

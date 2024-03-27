@@ -107,7 +107,6 @@
     <Compile Include="Helper\JavascriptHelper.cs" />
     <Content Include="resource\BaseScript.js" />
     <Compile Include="Service\ExpressionService.cs" />
-    <Compile Include="Service\ScriptEngine.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
