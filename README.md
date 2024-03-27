@@ -1,2 +1,2 @@
 # csharp.with.javascript
-Reading and executing javascript using C#
+Reading and executing javascript file using C#
