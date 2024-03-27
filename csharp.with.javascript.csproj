@@ -101,10 +101,12 @@
     <Compile Include="DTO\R.cs" />
     <Compile Include="DTO\Root.cs" />
     <Compile Include="DTO\Student.cs" />
+    <Compile Include="Helper\ReadObjectHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Helper\JavascriptHelper.cs" />
     <Content Include="resource\BaseScript.js" />
+    <Compile Include="Service\ExpressionService.cs" />
     <Compile Include="Service\ScriptEngine.cs" />
   </ItemGroup>
   <ItemGroup>

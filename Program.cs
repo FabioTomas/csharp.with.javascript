@@ -1,4 +1,4 @@
-﻿using csharp.with.javascript.Service;
+﻿using csharp_with_javascript.Service;
 
 namespace csharp.with.javascript
 {
@@ -10,7 +10,9 @@ namespace csharp.with.javascript
         }
         static void Main(string[] args)
         {
-            var engine = new ScriptEngine();
+            //var engine = new ScriptEngine();
+
+            new ExpressionService();
 
         }
     }
